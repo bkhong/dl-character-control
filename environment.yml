@@ -1,0 +1,19 @@
+name: pfnn
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7.5
+  - numpy
+  - scipy
+  - numba
+  - matplotlib
+  - tqdm
+  - pytorch
+  - cudatoolkit=10
+  - theano
+  - mingw
+  - libpython
+  - pillow
+  - cudnn
